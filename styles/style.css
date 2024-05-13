@@ -109,8 +109,9 @@
     position: relative;
     z-index: 1;
     background-image: url(/images/cover.jpg);
-    width: 1100px;
+    /* /* width: 1100px; */
     height: 757px;
+    width: 100%;
     opacity: 0.6px;
     background-repeat: no-repeat;
     background-position: center;
@@ -132,15 +133,13 @@
     flex-direction: column;
     position: absolute;
     z-index: 3;
-    width: 1000px;
-    height: 355px;
-    top: 165px;
-    left: 50px;
+    width: 100%;
     font-family: "Raleway", sans-serif;
     text-transform: uppercase;
     font-size: 100px;
     font-weight: 700;
     color: #FFFFFF;
+    padding: 165px 50px 147px;
     
 }
 
@@ -148,34 +147,39 @@
 .aligned-text {
     display: inline;
     align-items: start;
-    /* line-height: 115px; */
     text-align: left;
 }
 
 .aligned-text_center {
-    display: inline;
-    align-items: center;
-    line-height: 1.4;
-    letter-spacing: 0.3em;
+    display: flex;
     text-align: center;
-
-
+    align-items: center;
+    margin-left: 286px;
+    margin-top: 9px;
+    
+    
 }
 
 .aligned-text_right {
     display: inline;
     align-items: end;
-    line-height: 100px;
-    letter-spacing: 0.2em;
-    text-align: right; 
+    text-align: right;
+    align-items: end;
+    justify-content: flex-end;
+    margin-top: 3px;
 
 }
 
 
 .letter-spacing-extended {
-    letter-spacing: 0.6em;
+    /* letter-spacing: 0.6em; */
+    letter-spacing: 60px;
+    margin-left: 30px;
  }
 
+ .letter-spacing {
+    letter-spacing: 30px;
+ }
 
 .no-letter-spacing {
     letter-spacing: normal;
