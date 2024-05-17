@@ -1,2 +1,2 @@
 Проект подготовлен Александрой Зайченко
- [Ссылка на репозиторий](https://github.com/tishka1691/ono-tebe-nado)
+ [Ссылка на репозиторий](https://github.com/tishka1691/ono-tebe-nado.git)
