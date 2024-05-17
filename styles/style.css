@@ -142,7 +142,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 79px;
+  /* gap: 79px; */
   margin-right: 50px;
   margin-bottom: 50px;
   margin-top: auto;
@@ -205,7 +205,7 @@
   display: grid;
   grid-template-columns: repeat(3, 334px);
   grid-template-rows: 561px;
-  gap: 25px 0px;
+  gap: 25px;
   justify-content: space-between;
 }
 
@@ -250,6 +250,7 @@
   text-transform: uppercase;
   margin: 51px 40px 0px;
 }
+
 .card__text {
   display: flex;
   z-index: 3;
