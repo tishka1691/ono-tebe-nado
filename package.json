@@ -1,0 +1,24 @@
+{
+  "name": "ono-tebe-nado",
+  "version": "1.0.0",
+  "description": "Проект подготовлен Александрой Зайченко\r  [Ссылка на репозиторий](https://github.com/tishka1691/ono-tebe-nado.git)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo Привет",
+    "check": "prettier --check './**/*.{html,css,js}'",
+    "write": "prettier --write './**/*.{html,css,js}'",
+    "lint": "stylelint **/*.css",
+    "lintfix": "stylelint **/*.css --fix",
+    "checkAll": "npm run check && npm run lint",
+    "fixAll": "npm run format && npm run lintfix"
+
+    
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "atomizer": "^3.29.0",
+    "prettier": "^3.2.5",
+    "stylelint": "^16.5.0"
+  }
+}

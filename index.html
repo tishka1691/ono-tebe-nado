@@ -1,13 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
-    <link rel="stylesheet" href="./fonts/fonts.css">
-    <link rel="stylesheet" href="./styles/global.css">
-    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./fonts/fonts.css" />
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body class="body">
     <header class="header" id="header">
@@ -27,20 +27,18 @@
           <img
             class="header__logo_image"
             src="./images/logo-black.svg"
-            alt="Логотип на белом фоне">
+            alt="Логотип на белом фоне"
+          />
         </a>
-        <div class="address header__addres">
+        <address class="address header__addres">
           <a href="tel:+99995555555">+9 999 555 5555</a>
           <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-          <address class="header__addr">
-            наб. Принсенграхт 263- 265, Амстердам
-          </address>
-        </div>
+          <p class="header__addr">наб. Принсенграхт 263- 265, Амстердам</p>
+        </address>
       </div>
     </header>
     <main>
       <section class="cover">
-        <div class="overlay"></div>
         <h1 class="cover__title">
           <span class="aligned-text"
             >о<span class="letter-spacing-extended">но</span>
@@ -56,58 +54,59 @@
           </span>
         </h1>
         <div class="cover__description">
-          <span class="cover__description-text"
-            >Аукцион вещей, в которые никто не верил
-          </span>
+          <h3 class="cover__description-text">
+            Аукцион вещей, в которые никто не верил
+          </h3>
           <div class="cover__description-btn">
             <button type="button" class="bet-button">Сделать ставку</button>
           </div>
         </div>
+        <div class="overlay"></div>
       </section>
       <section class="lots" id="lots">
         <h2 class="lots__heading">Лоты</h2>
         <div class="lots__card-list">
           <a class="card-link" href="#0">
-            <article class="card card_type_film">
-              <div class="overlay"></div>
+            <div class="card card_type_film">
               <h3 class="card__title">
                 Фильм режиссёра, который бросил киношколу
               </h3>
-              <span class="card__text"
-                >Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
-                ставка, если бы вы не знали, что режиссёр — Пол Томас
-                Андерсон?</span>
-            </article>
+              <p class="card__text">
+                Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
+                ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
+              </p>
+              <div class="overlay"></div>
+            </div>
           </a>
           <a class="card-link" href="#0">
-            <article class="card card_type_book">
-              <div class="overlay"></div>
+            <div class="card card_type_book">
               <h3 class="card__title">
                 Книга, где описан один скучный день из жизни рекламного агента
               </h3>
-              <span class="card__text"
-                >Объёмом почти в тысячу страниц. Иногда без знаков препинания и
-                с переходами на древнеанглийский. В ней одновременно
+              <p class="card__text">
+                Объёмом почти в тысячу страниц. Иногда без знаков препинания и с
+                переходами на древнеанглийский. В ней одновременно
                 рассказывается о 16 июня 1904 года и об истории литературы,
                 начиная с античных времён. И это всё накладывается на эпическую
                 поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса
-                Джойса?</span
-              >
-            </article>
+                Джойса?
+              </p>
+              <div class="overlay"></div>
+            </div>
           </a>
           <a class="card-link" href="#0">
-            <article class="card card_type_picture">
-              <div class="overlay"></div>
+            <div class="card card_type_picture">
               <h3 class="card__title">
                 Картина, которую повторит даже 5-летний сын маминой подруги
               </h3>
-              <span class="card__text"
-                >Ну действительно, там линия, тут кружочек, а здесь и вовсе
+              <p class="card__text">
+                Ну действительно, там линия, тут кружочек, а здесь и вовсе
                 что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
                 котиков... Сколько бы вы на такое поставили, если бы не знали,
-                что это — одна из революционных работ Кандинского?</span
-              >
-            </article>
+                что это — одна из революционных работ Кандинского?
+              </p>
+              <div class="overlay"></div>
+            </div>
           </a>
         </div>
         <a class="lots__look-more-link" href="#0">посмотреть больше</a>
@@ -118,11 +117,12 @@
             <img
               class="about__logo"
               src="./images/logo-white.svg"
-              alt="Логотип на черном фоне">
+              alt="Логотип на черном фоне"
+            />
           </div>
           <h2 class="about__title">Об аукционе</h2>
           <div class="about__text">
-            <p class="about__text-padding">
+            <p>
               Здесь вы не встретите очередное пафосное собрание невероятно
               дорогого антиквариата. Наши лоты вообще не должны были попасть ни
               на один аукцион. Потому что кому нужен дневник девочки-подростка
@@ -144,7 +144,7 @@
     </main>
     <footer>
       <div class="footer">
-        <div class="address">
+        <div class="address footer__addres">
           <a href="tel:+99995555555">+9 999 555 5555</a>
           <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
           <address class="header__address footer__menu-link">
@@ -164,22 +164,35 @@
             </li>
           </ul>
         </nav>
-        <div class="footer__social-list">
-          <a href="https://www.youtube.com/?hl=RU" target="_blank">
-            <img
-              class="footer__social-icon"
-              src="./images/yt.svg" alt="YouTube">
-          </a>
-          <a href="https://vk.com/" target="_blank"
-            ><img class="footer__social-icon" src="./images/vk.svg" alt="VK">
-          </a>
-          <a href="https://ru.pinterest.com/" target="_blank"
-            ><img
-              class="footer__social-icon"
-              src="./images/pinterest.svg"
-              alt="pinterest">
-          </a>
-        </div>
+        <ul class="footer__social-list">
+          <li class="footer__social-list_item">
+            <a href="https://www.youtube.com/?hl=RU" target="_blank">
+              <img
+                class="footer__social-icon"
+                src="./images/yt.svg"
+                alt="YouTube"
+              />
+            </a>
+          </li>
+          <li class="footer__social-list_item">
+            <a href="https://vk.com/" target="_blank"
+              ><img
+                class="footer__social-icon"
+                src="./images/vk.svg"
+                alt="VK"
+              />
+            </a>
+          </li>
+          <li class="footer__social-list_item">
+            <a href="https://ru.pinterest.com/" target="_blank"
+              ><img
+                class="footer__social-icon"
+                src="./images/pinterest.svg"
+                alt="pinterest"
+              />
+            </a>
+          </li>
+        </ul>
       </div>
     </footer>
   </body>
