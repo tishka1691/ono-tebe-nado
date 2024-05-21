@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
@@ -33,7 +33,7 @@
         <address class="address header__addres">
           <a href="tel:+99995555555">+9 999 555 5555</a>
           <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-          <p class="header__addr">наб. Принсенграхт 263- 265, Амстердам</p>
+          <p class="address__place">наб. Принсенграхт 263- 265, Амстердам</p>
         </address>
       </div>
     </header>
@@ -54,9 +54,9 @@
           </span>
         </h1>
         <div class="cover__description">
-          <h3 class="cover__description-text">
+          <h2 class="cover__description-text">
             Аукцион вещей, в которые никто не верил
-          </h3>
+          </h2>
           <div class="cover__description-btn">
             <button type="button" class="bet-button">Сделать ставку</button>
           </div>
@@ -64,13 +64,14 @@
         <div class="overlay"></div>
       </section>
       <section class="lots" id="lots">
-        <h2 class="lots__heading">Лоты</h2>
-        <div class="lots__card-list">
-          <a class="card-link" href="#0">
+        <h3 class="lots__heading">Лоты</h3>
+        <ul class="lots__card-list">
+          <li >
+            <a class="card-link menu-link_no-active" href="#0">
             <div class="card card_type_film">
-              <h3 class="card__title">
+              <h4 class="card__title">
                 Фильм режиссёра, который бросил киношколу
-              </h3>
+              </h4>
               <p class="card__text">
                 Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
                 ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
@@ -78,37 +79,42 @@
               <div class="overlay"></div>
             </div>
           </a>
-          <a class="card-link" href="#0">
-            <div class="card card_type_book">
-              <h3 class="card__title">
-                Книга, где описан один скучный день из жизни рекламного агента
-              </h3>
-              <p class="card__text">
-                Объёмом почти в тысячу страниц. Иногда без знаков препинания и с
-                переходами на древнеанглийский. В ней одновременно
-                рассказывается о 16 июня 1904 года и об истории литературы,
-                начиная с античных времён. И это всё накладывается на эпическую
-                поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса
-                Джойса?
-              </p>
-              <div class="overlay"></div>
-            </div>
-          </a>
-          <a class="card-link" href="#0">
-            <div class="card card_type_picture">
-              <h3 class="card__title">
-                Картина, которую повторит даже 5-летний сын маминой подруги
-              </h3>
-              <p class="card__text">
-                Ну действительно, там линия, тут кружочек, а здесь и вовсе
-                что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
-                котиков... Сколько бы вы на такое поставили, если бы не знали,
-                что это — одна из революционных работ Кандинского?
-              </p>
-              <div class="overlay"></div>
-            </div>
-          </a>
-        </div>
+        </li>
+          <li>
+            <a class="card-link menu-link_no-active" href="#0">
+              <div class="card card_type_book">
+                <h4 class="card__title">
+                  Книга, где описан один скучный день из жизни рекламного агента
+                </h4>
+                <p class="card__text">
+                  Объёмом почти в тысячу страниц. Иногда без знаков препинания и с
+                  переходами на древнеанглийский. В ней одновременно
+                  рассказывается о 16 июня 1904 года и об истории литературы,
+                  начиная с античных времён. И это всё накладывается на эпическую
+                  поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса
+                  Джойса?
+                </p>
+                <div class="overlay"></div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a class="card-link menu-link_no-active" href="#0">
+              <div class="card card_type_picture">
+                <h4 class="card__title">
+                  Картина, которую повторит даже 5-летний сын маминой подруги
+                </h4>
+                <p class="card__text">
+                  Ну действительно, там линия, тут кружочек, а здесь и вовсе
+                  что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
+                  котиков... Сколько бы вы на такое поставили, если бы не знали,
+                  что это — одна из революционных работ Кандинского?
+                </p>
+                <div class="overlay"></div>
+              </div>
+            </a>
+          </li>
+        </ul>
         <a class="lots__look-more-link" href="#0">посмотреть больше</a>
       </section>
       <section class="about" id="auction">
@@ -120,7 +126,7 @@
               alt="Логотип на черном фоне"
             />
           </div>
-          <h2 class="about__title">Об аукционе</h2>
+          <h5 class="about__title">Об аукционе</h5>
           <div class="about__text">
             <p>
               Здесь вы не встретите очередное пафосное собрание невероятно
@@ -144,17 +150,17 @@
     </main>
     <footer>
       <div class="footer">
-        <div class="address footer__addres">
+        <div class="address address__place">
           <a href="tel:+99995555555">+9 999 555 5555</a>
           <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-          <address class="header__address footer__menu-link">
+          <address class="footer__menu-link">
             наб. Принсенграхт 263- 265, Амстердам
           </address>
         </div>
         <nav aria-label="footer__menu" class="footer__menu">
           <ul class="footer__menu-list">
             <li class="footer__menu-list-item">
-              <a class="footer__menu-link_active" href="#main">главная</a>
+              <a class="menu-link_no-active" href="#main">главная</a>
             </li>
             <li class="footer__menu-list-item">
               <a href="#lots">посмотреть лоты</a>
