@@ -44,13 +44,7 @@
   width: auto;
 }
 
-.header__logo-image {
-  width: 148px;
-  height: 105px;
-}
-
-
-.header__addres {
+.header__address {
   margin-left: auto;
 }
 
@@ -121,10 +115,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-right: 50px;
-  margin-bottom: 50px;
-  margin-top: auto;
-  margin-left: 80px;
+  margin: auto 50px 50px 80px;
   z-index: 3;
 }
 
@@ -142,7 +133,7 @@
 .bet-button {
   display: inline-block;
   z-index: 3;
-  width: 256px;
+  padding: 10px 31px;
   min-height: 51px;
   border: 1px solid #ffff;
   font-size: 22px;
@@ -191,10 +182,6 @@
   flex-direction: column;
   justify-content: space-between;
   z-index: 1;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  width: 334px;
   min-height: 563px;
 }
 
