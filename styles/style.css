@@ -175,6 +175,7 @@
   position: relative;
   display: block;
   color: #fff;
+  text-decoration: none;
 }
 
 .card {
